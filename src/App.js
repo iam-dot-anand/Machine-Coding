@@ -1,6 +1,7 @@
 // import './App.css';
 import EMICalculator from './Component/EMI Calculator';
 import Loader from './Component/Loader/Loader';
+import ModelComponent from './Component/Modal';
 import { FetchProduct } from './Component/pagination/FetchProduct';
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
       {/* <FetchProduct/> */}
       {/* <Loader/> */}
-      <EMICalculator/>
+      {/* <EMICalculator/> */}
+      <ModelComponent/>
 
     </div>
   );
